@@ -77,4 +77,20 @@
 .main_result .absolute {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_result .absolute span {
+    margin-bottom: 10px;
+    border: 2px solid #292828;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.main_result .absolute a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
 }
