@@ -9,12 +9,17 @@
         <title> HOME </title>
     </head>
     <body>
+
+        <div onclick="window.location.href='/'" class="logo">
+            <span>JCROWD.CO</span>
+        </div>
+
         <div class="main_container">
             <div class="main">
                 <h4>Get some information about the website.</h4>
 
                 <form class="cls_form" method="post">{% csrf_token %}
-                    <input class='input_website' placeholder="url website ..." type="text" name='url_to_website' />
+                    <input required class='input_website' placeholder="example google.com ..." type="text" name='url_to_website' />
                     <button type="submit" name="button">LET'S GO!</button>
                 </form>
                 <img src="{%  static 'img/down-arrow.png'  %}" />
@@ -23,7 +28,7 @@
             <div class="main_result">
 
 
-                <h4>The result of the query will be displayed here.</h4>
+                <h4 class="result_loading">The result of the query will be displayed here.</h4>
 
 
             </div>

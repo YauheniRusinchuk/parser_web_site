@@ -5,7 +5,14 @@
     font-family: 'Mina', sans-serif;
 }
 
-
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #292828;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 .main_container {
     width: 90%;
@@ -15,8 +22,9 @@
 
 
 .main {
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
 
 .main form {
     display: flex;
@@ -63,4 +71,10 @@
 
 .main_result {
     margin-top: 20px;
+}
+
+
+.main_result .absolute {
+    display: flex;
+    flex-direction: column;
 }
