@@ -8,7 +8,6 @@ def index(request):
     #r : set = session.get('http://google.com')
     if request.is_ajax() and request.POST:
         name_web_site:str = request.POST.get('name')
-        print('request : ', name_web_site)
         url:str = 'http://' + name_web_site
         r = session.get(url)
         data = {'absolute_links': list(r.html.absolute_links)}
