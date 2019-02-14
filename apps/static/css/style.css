@@ -92,6 +92,7 @@
     font-size: 12px;
     text-decoration: none;
     font-weight: bold;
+    color: #1b91ab;
 }
 
 .main_result .absolute_headers h4 {
@@ -113,7 +114,7 @@
 
 
 .absolute_headers span {
-    color: blue;
+    color: #1b91ab;
 }
 
 
