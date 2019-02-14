@@ -81,9 +81,8 @@
     justify-content: center;
 }
 
-.main_result .absolute span {
+.main_result .absolute h4 {
     margin-bottom: 10px;
-    border: 2px solid #292828;
     padding: 3px 10px;
     border-radius: 3px;
     font-weight: bold;
@@ -93,6 +92,28 @@
     font-size: 12px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.main_result .absolute_headers h4 {
+    margin-bottom: 10px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.absolute_headers {
+    margin-bottom: 20px;
+}
+
+.absolute_headers p {
+    color: #292828;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.absolute_headers span {
+    color: blue;
 }
 
 
