@@ -2,6 +2,7 @@ $(function(){
 
     $('.cls_form').on('submit', (e)=>{
         e.preventDefault();
+        $('.absolute_headers').remove();
         $('.absolute').remove();
         $('.error_h4').remove();
         $('.result_loading').text("Loading ....")
